@@ -1,0 +1,19 @@
+# Input and output documents (may contain personal data) - keep the folders only
+PDF to convert/*
+!PDF to convert/.gitkeep
+PDFs converted/*
+!PDFs converted/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
